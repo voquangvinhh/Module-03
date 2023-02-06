@@ -3,7 +3,11 @@ body{
     margin: 20px;
     line-height: 26px;
 }
-
+/*.main{*/
+/*    border: #d4d4d4;*/
+/*    border-bottom-style: solid;*/
+/*    text-align: justify;*/
+/*}*/
 .container{
     xmin-width: 900px;
 }

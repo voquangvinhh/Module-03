@@ -1,0 +1,29 @@
+body{
+    font: 100% Times New Roman, Verdana;
+    margin: 10px;
+    line-height: 26px;
+    background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2022/05/Background-trang.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: unset;
+}
+#top, .listnoidung{
+    border-radius: 4px;
+    margin: 4px;
+}
+#top{
+    background: #D2B48C;
+    color: #181818;
+    overflow: auto;
+    padding: 5px;
+}
+.listnoidung{
+    background: #D2B48C;
+    width: 200px;
+    float: left;
+}
+.noidung:hover{
+    color: #32a4e7;
+    border-radius: 4px;
+    margin: 4px;
+}
