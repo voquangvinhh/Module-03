@@ -17,7 +17,8 @@
 <%!
     Map<String, String> dic = new HashMap<>();
 %>
-
+<%--//get là lấy thông tin về--%>
+<%--// post là đã có thông tin và đẩy thông tin lên--%>
 <%
     dic.put("hello", "Xin chào");
     dic.put("how", "Thế nào");
