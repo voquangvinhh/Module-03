@@ -1,0 +1,4 @@
+câu lệnh terminal
+rm "thư mục cần xóa": xóa thư mục
+mkdir "tên thư mục": tạo mới thư mục
+cls: clear

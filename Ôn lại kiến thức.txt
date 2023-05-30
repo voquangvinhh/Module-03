@@ -1,0 +1,4 @@
+Ôn lại kiến thức:
+- Array list khác gì map?
+- Compile time và runtime?
+- wrapperclass là gì? --> là class kiểu nguyên thủy

@@ -1,0 +1,8 @@
+cấu trúc thư mục redux toolkit:
+- api: là lấy các đầu api
+- app: chứa store.js nơi định nghĩa các redux 
+- asset: chứa file css và hình ảnh;
+- component: chứa các file components
+- service: 
+- utility: file chứa hàm tiện ích
+- features: chứa thư mục
