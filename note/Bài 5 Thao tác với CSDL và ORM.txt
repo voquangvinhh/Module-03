@@ -1,0 +1,17 @@
+Bài 5: Thao tác với CSDL và ORM
+- ORM là kỹ thuật liên kết các đối tượng trong lập trình với các đối tượng trong CSDL.
+- ORM cho phép truy xuất dễ dàng đến dữ liệu thông qua các đối tượng lập trình.
+ORM giúp lập trình viên tập trung thao tác với các đối tượng, không cần quá quan tâm đến CSDL thực tế đang dùng.
+
+*Ưu nhược điểm ORM
+-Ưu điểm:
+ + Quản lý dữ liệu tập trung trong code
+ + Các thao tác với dữ liệu được thực hiện tự động
+ + Tránh được các lỗi cú pháp SQL
+ + Hỗ trợ giao dịch (transaction)
+ + Có thể cache dữ liệu để truy xuất nhanh hơn
+
+-Nhược điểm: 
+ + Đối với các dự ấn lớn, hiệu năng truy xuất dữ liệu thường hạn chế
+ + Lập trình viên dễ bị rơi vào bẫy truy xuất dữ liệu quá nhiều (vì quá dễ để truy xuất), ảnh hưởng đến hiệu năng của hệ thống
+ + Đối với các thao tác phức tạp, có thể cần đến việc sử dụng SQL thuần

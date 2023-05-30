@@ -1,0 +1,3 @@
+JPA và Hibernate
+- JPA là tập các giao diện (interfaces), qui chuẩn, định nghĩa
+- Hibernate thực hiện cài đặt (implements) các giao diện đó, định nghĩa đó

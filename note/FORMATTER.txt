@@ -1,0 +1,5 @@
+FORMATTER
+- Formatter là các interface hỗ trợ chuyển đổi dữ liệu nhập vào sang kiểu dữ liệu thích hợp.
+- Formatter được thiết kế để sử dụng ở tầng web (Web tier)
+- Formatter hỗ trợ chuyển đổi đữ liệu nhập vào sang kiểu dữ liệu thích hợp
+- Formatter chỉ hỗ trợ chuyển đổi từ kiểu chuỗi

@@ -1,0 +1,3 @@
+Note
+@Data: thay thế cho tất cả dữ liệu
+@ToString: không nên để trong class entity

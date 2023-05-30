@@ -1,0 +1,13 @@
+So sánh REST vs SOAP:
+REST:
+- RESTful web services là phi trạng thái.
+- Đối với hầu hết các server, các web service RESTful cung cấp bộ nhớ đệm tốt qua phương thức HTTP GET. Điều này cải thiện hiệu suất nếu thông tin service trả về không thay đổi thường xuyên và không phải là động.
+- Các nhà sản xuất và người sử dụng phải hiểu bối cảnh và nội dung được truyền đi vì không có bộ quy tắc chuẩn để mô tả REST web services interface.
+- REST services dễ tích hợp với các trang web hiện có và được tiếp xúc và XML để các trang HTML có thể dễ dàng sử dụng. Có rất ít cần phải cấu trúc lại kiến trúc trang web hiện có. Như vậy, các nhà phát triển có năng suất cao hơn vì họ không cần viết lại mọi thứ từ đầu, họ chir cần thêm vào chức năng hiện có.
+- Việc thực thi dựa trên REST đơn giản hơn so với SOAP.
+
+SOAP:
+- Ngôn ngữ mô tả web service (Web Servicé Description Language - WSDL) mô tả một bộ quy tắc chung để xác định các thông điệp (messeges), ràng buộc (bindings), hoạt động và vị trí của service. WSDL giống như một hợp đồng để xác định interface mà service cung cấp.
+- SOAP yêu cầu ít tiêu chuẩn hơn so thiết kế RESt service (vi dụ: transactions, bảo mật, điều phối, giải quyết vấn đề và tin cậy). Hầu hết các ứng dụng trong thực tế không đơn giản và hỗ trợ các hoạt động phức tạp, yêu cầu duy trì trạng thái cuộc hội thoại và thông tin theo ngữ cảnh. Với SOAP, các nhà phát triển không cần viết mã hệ thống bắt buộc vào tầng ứng dụng.
+- Các SOAP web service, chẳng hạn như JAx-WS, rất hữu ích cho việc xử lý và yêu cầu không đồng bộ.
+- SOAP hỗ trợ một số giao thức và công nghe, bao gồm WSDL, XSD và WS-Addressing.

@@ -1,0 +1,11 @@
+Spring Data Repository:
+- Spring Data Repository định nghĩa một interface chính tên là Repository. Interface này nắm bắt entity cần quản lý và kiểu dữ liệu id của entity đó.
+- Interface CrudRepository kế thừa từ interface Repository, chứa các phương thức thông dụng dành cho các thao tác CRUD.
+- Interface PagingAndSortingRepository cung cấp các phương thức hỗ trợ cho việc phân tranh và sắp xếp các entity.
+
+* Ý nghĩa Spring Data Repository
+- Spring Data Repository giúp giảm thiếu lượng code thông thường lặp đi lặp lại ở tầng truy xuất dữ liệu.
+- Giúp cho việc xây dựng tầng truy xuất dữ liệu trở nên dễ dàng hơn.
+- Spring Data Repository định nghĩa một interface chíng tên là Repository. Interface này nắm bắt entity cần quản lý và kiểu dữ liệu id của entity đó.
+- Interface CrudRepository kế thừa từ ỉnterface Repository, chứa các phương thức thông dụng dành cho các thao tác CRUD.
+- Interface PagingAndSortingRepository cung cấp cácc phương thức hỗ trợ cho việc phân trang và sắp xếp các entity.

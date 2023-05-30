@@ -1,0 +1,5 @@
+Hibernate
+- là một ORM frameword cho phép người lập trình thao tác với database một cách hoàn toàn tự nhiên thông quan các đối tượng
+- hibernate sẽ thông quan xml mapping để ánh xạ các bảng và các mối quan hệ trong cơ sở dữ liệu với tập hợp các đối tượng là các persistent object để ứng dụng có thể thao tác.
+Đặc trưng của Hibernante
+- để tương tác với cơ sở dử liệu

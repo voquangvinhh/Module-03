@@ -1,0 +1,4 @@
+Cookie
+- Là một đoạn văn bản ghi thông tin được web server lưu trong ổ cứng của người dùng.
+- thường chứa thông tin để định danh user và những thông tin lịch sử truy cập website
+- Cookie dùng để tracking user đã đến những trang nào của website nhằm tạo sự kết hợp giữa user và website. Khi người dùng truy cập đến một trang web có sử dụng cookie, web server của trang đó sẽ tự động gửi cookie đến máy tính của người dùng. Những cookie này tự động được tổ chức trong hệ thông máy tính.

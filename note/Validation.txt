@@ -1,0 +1,5 @@
+Validation
+- là thao tác cho phép ứng dụng kiểm tra dữ liệu nhập vào bởi người dùng để đảm bảo tính hợp lý và chíng xác khi xử lý các thao tác nghiệp vụ. VD: nhập địa chỉ email, ứng dụng cần đảm bảo email hợp lệ
+ + Validate ở tầng giao diện: Sử dụng JavaScrip để validate
+ + Validate ở tầng bach-end: Validate ở Controller/Service
+ + Validate ở tầng CSDL: Sử dụng các ràng buộc trong CSDL (NOT NULL, UNIQUE...)

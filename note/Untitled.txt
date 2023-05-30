@@ -1,0 +1,6 @@
+
+Log
+- local: cho phép bug
+- DEV: giảm thiểu bug
+- STG/staging/UAT: tester
+- Production: 

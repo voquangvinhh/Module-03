@@ -1,0 +1,4 @@
+ORM Mapping tới:
+- Table - entity
+- column - propertys
+- record - instant/object

@@ -1,0 +1,10 @@
+so sánh:
+ORM: 
+Tiêu chuẩn JPA để làm việc thao tác vs csdl, cung cấp bộ công cụ để thao tác với csdl, cung cấp thư viện javax
+kỹ thuật tương tác với db;
+Hibernate:
+ORM Framwrok có các chức năng cung cấp : caching, transaction,... theo tiêu chuẩn JPA
+JPA:
+-Tiêu chuẩn phát triển ứng dụng theo kỹ thuật ORM
+Spring Data JPA:
+1 module trong Spring Data tối ưu hóa câu truy vấn động (JPA Repository)

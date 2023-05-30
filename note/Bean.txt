@@ -1,0 +1,5 @@
+Bean là đơn vị nhỏ nhất trong ứng dụng stringframword, 
+hỗ trợ có chế 
+khởi tạo trong bean IOC contaner,
+
+IOC contaner là kho chứa để khởi tạo bean quản lý vòng đời của bean Stringframword,

@@ -1,0 +1,22 @@
+Kiến trúc JPA:
+1. Entity: là đối tượng thể hiện đối tượng tương ứng với một table trong cơ sở dữ liệu, bao gồm các class đơn giản và các get/seter
+- có thể tương tác với dữ liệu quan hệ
+- được xác định qua một định danh, tương đương với khóa chính trong table của cơ sở dữ liệu 
+- entity hỗ trợ transaction, hỗ trợ kế thừa như java class khác
+2. Entity Manager: là một interface cung cấp các api cho việc tương tác với các entity
+- một số chức năng cơ bản của entity manager: 
+ + persis: phương thức này dùng để lưu một thực thể mới tạo vào cơ sở dữ liệu
+ + mợt: sử dụng để cập nhật trạng thái vào cơ sở dữ liệu
+ + remove: xóa một thể hiện của entity  
+3. Entity Manager Factory:
+- Được sử dụng để tạo một thể hiện của entity manager 
+4. Entity Transaction:
+- 1 tracsaction là một thao tác trong đó tất cả các thao tác phải được thực hiện thành công hoặc tất cả thất bại.
+- 1 database saction bao gồm 1 tập hợp tất cả các câu lệnh SQL được thực thi liền mạch nếu một hành động thất bại thì các hành động trước đó trong transaction cũng phải được hoàn tác.
+- entity transaction có quan hệ 1 - 1 với entity manager, bất kỳ thao tác nào được bắt đầu thông qua đối tượng entity manager đều được đặt trong một transaction.
+- Đối tượng entity manager giúp tạo một đối tượng transaction.  
+5. Persistence
+- Định nghĩa một tập hợp các entity class được quản lý bởi một thể hiện của entity manager trong ứng dụng
+- Các phương thức của persistence class bao gồm các phương thức static để lấy thể hiện của entity manager factory
+6. Query:
+- Đây là một interface được mỗi nhà cung cấp JPA triển khai để có được các đối tượng quan hệ đáp ứng các tiêu chí truy vấn 																																																									

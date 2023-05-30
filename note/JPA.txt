@@ -1,0 +1,14 @@
+JPA 
+- là một interface dung cho lập trình ứng dụng JAVA
+- Mô tả cách quản lý các mối quan hệ dữ liệu trong ứng dụng sử dụng Java Platform
+- Cung cấp một số mô hình cho phép ánh xạ các bảng trong CSDL và các lớp
+
+Ưu điểm:
+- Viết ít code hơn.
+- Peformance tốt.
+- Độc lập về database.
+- Không phải làm việc với SQL.
+- Hỗ trợ cấu hình triển khai bằng annotation và xml
+- Có nhiều framework ORM miễn phí hỗ trợ có thể dùng để phát triển nhiều lại ứng dụng khác nhau.
+- JPA là một đặc tả đã được chuẩn hóa và là một thành phần trong đặc tả EJB 3.
+- Dễ dàng chuyển từ một ORM này sang một ORM khác. Ví dụ từ iBatis sang Hibernate.

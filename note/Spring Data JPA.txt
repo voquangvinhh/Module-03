@@ -1,0 +1,7 @@
+Spring Data JPA:
+- là cải tiến JPA tiêu chuẩn
+- Đơn giản hóa tầng truy xuất dữ liệu
+- tự do tạo repository
+- truy vấn DSL
+- Ghi log, phân trang
+- Có thể tùy biến nếu cần thiết 

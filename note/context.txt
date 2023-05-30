@@ -1,0 +1,2 @@
+Context là đại diện container;
+viewResolver là đối tượng thao tác trên tầng view;
